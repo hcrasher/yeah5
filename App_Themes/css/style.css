@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Lalezar|Open+Sans:300,400');
+
+body{
+	background-color:#0c3754;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body .header{
+	width:100%;
+	color:#FFFFFF;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	position:absolute;
+}
+
+body .header_left h1{
+	font-size: 16pt;
+	float:left;
+	padding-left: 2em;
+	padding-top: 20px !import;
+}
+
+body .header_right{
+	font-size: 8pt;
+	float:right;
+	padding-right: 2em;
+	padding-top: 30px;
+}
+
+body .header_right ul{
+	list-style: none;
+	display: inline-flex;
+}
+
+body .header_right ul li{
+	margin-right:40px;
+}
+
+body .header_right ul li a{
+	color:#FFFFFF;
+    text-decoration: none;
+}
+
+body .contact ul{
+    color:#FFFFFF;
+    text-align: center;
+    padding-top: 1em;
+     list-style: none;
+    display: flex;
+    float: right;
+    text-align: right !important;
+    padding-right: 4em;
+
+}
+
+body .contact ul li{
+    padding-left: 10em;
+}
+
+
+img.icon{
+    position: absolute;
+    padding-top: 2em;
+}
+
+body .banner{
+    float: right;
+    min-width: 10em;
+    width:49em;
+}
+
+body #text_banner{
+	font-family: 'Lato', sans-serif;
+	color:#FFFFFF;
+	position: absolute;
+	margin-top: 10em;
+    padding-right: 10em;
+    font-size: 13pt;
+}
+
+body #text_banner h2{
+    font-family: 'Lalezar',cursive;
+	font-size: 37pt;
+    text-transform: uppercase;
+}
+body img.banner{
+    min-width: 100%;
+}
+
+body #Features{
+	width:90%;
+	margin:5% 5% 5% 5%;
+    color:#FFFFFF;
+    min-height: 80em;
+}
+
+body #Features h2{
+    font-family: 'Lalezar',cursive;
+	text-align: center;
+    font-size:35pt;
+}
+
+body #Features p.services{
+    font-size:12pt;
+    margin-top: 1.5em;
+    padding-left: 0!important;
+    text-align: center;
+}
+
+body #Features h3{
+	padding-left: 3em;
+    font-weight: 600;
+}
+
+body #Features p{
+	font-size: 10pt;
+     padding-left: 5.5em;
+}
+
+
+body #Features a{
+	color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+body #footer {
+    background-color:#ffcc00;
+}
+
+body #footer img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    min-width: 100%;
+}
+
+body #text_footer{
+	font-family: 'Open Sans', sans-serif !important;
+	color:#FFFFFF;
+	position: absolute;
+	padding-top: 10em;
+	padding-left:2em;
+	width: 100%;
+	text-align: center;
+}
+
+body #text_footer h3{
+    font-family: 'Lalezar',cursive;
+	font-size:32pt;
+    color:#cb670b;
+}
+
+body #text_footer p{
+	font-size:12pt;
+	margin-top: 1.3em;
+}
+
+body #text_footer form button, input, select, textarea{
+    font-size:11pt;
+    border-radius:3px;
+    border-width: 0px !important;
+    height: 2.3em;
+    margin-right:0.5em;
+    padding-left:0.7em;
+}
+
+body #text_footer form input:focus{
+    outline-color:  #0092f5;
+}
+
+body #text_footer form input[type=button], input[type=reset], input[type=submit] {
+	background-color: #0c3754 !important;
+    color:#FFFFFF;
+}
